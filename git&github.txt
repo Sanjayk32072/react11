@@ -15,4 +15,15 @@ GIT is a version control software that needs to be installed and it tracks the c
 
         This username and emailId should be same as github
 
-    iii. git commit -m "message"
+    iii. git commit -m "message" 
+
+
+    To share the code for collaboration, we can use platforms like
+ github, gitlab, bitbuckets etc..,
+
+    iv.git remote add origin https://github.com/prasad-bigdp/react9.git 
+
+   v. git push -u origin main/master
+
+
+
