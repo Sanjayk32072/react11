@@ -1,0 +1,63 @@
+Hooks : Hooks are the functions which have naming convention that starts with "use" in camelCase like useState,useEffect
+functions may not return values but hooks must return values.
+React 16  introduced hooks to overcome life cycle methods in class components
+
+Most popular and important hooks are:
+ i. useState: useState is hook used for state management which returns a value and a function to update the value and render the component
+   eg: const [value,setValue] = useState(initial value)
+
+ ii. useEffect: useEffect is a hook used as a replacement of componentDidMount and componentDidUpdate life cycle methods
+ .it will accept two values i.e., a function and dependencies array
+    --> if no dependencies array, then function executes on every state change of component
+    --> if only empty dependencies array , then function executes only one Time like only componentDidMount
+    --> if some values present in dependencies array, then function executes on every state change of those values
+
+    eg: useEffect(callback fn , [dependencies array])
+
+ 3. useContext : useContext is a hook used to take the values from the global context Provider and return those values
+   Eg: const {value}= useContent(contextName)
+
+ 4. useRef : useRef is used for DOM manipulations and Dealing with inputs
+   const value = useRef();
+   <p ref={value}>hello</p>
+ 
+ 5. useCallBack :
+   it is used for caching the callback functions. it caches functions to prevent unnecessary re renders. 
+
+   useCallBack(callback fn , [dependencies])
+
+   it is used to make a function cached such that it won't be called on every re render
+
+  In case  if a cache function send to child or unnecessary child renderings are happening, to stop child component to render everytime parent component render , we can use 
+  React.memo
+
+  React.memo is a Higher order component which takes child component and re render child only if its props changes
+
+
+6. useMemo: useMemo is similar to useCallback but useCallback is used to cach the functions and useMemo is used to cache the values 
+   Imagine, an application does expensive calculation and found the answer and what if user requested same calculation again
+
+7. custom hooks: we can create our own hooks similar to functional components but hook name should start with "use" and hooks must return some values
+we can use default hook in creation of custom hooks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

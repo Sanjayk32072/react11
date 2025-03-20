@@ -1,0 +1,12 @@
+fakestoreapi
+dummyjson
+random joke API
+pokeapi
+dictionary API
+tmdb api,omdb apis
+openweather api
+dev.to api
+nasa api
+news api
+spotify api
+AI apis 

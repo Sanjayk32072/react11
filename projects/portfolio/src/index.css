@@ -1,0 +1,23 @@
+@import "tailwindcss";
+*{
+    transition: all 1s ease;
+<<<<<<< HEAD
+}
+body{
+    max-width: 1280px;
+    margin: auto;
+}
+.anime{
+    height: 600px;
+    width: 600px;
+}
+body.light{
+    background-color: white;
+    color: black;
+}
+body.dark{
+    background-color: black;
+    color: white;
+=======
+>>>>>>> 8ac4142929d8ddc85ecb0a07f7059e1cc7a0754a
+}
