@@ -25,5 +25,7 @@ GIT is a version control software that needs to be installed and it tracks the c
 
    v. git push -u origin main/master
 
+for creating branches
 
-
+   git branch branch name
+   git checkout branchname
