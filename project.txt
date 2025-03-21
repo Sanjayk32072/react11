@@ -1,0 +1,11 @@
+Documentation site
+github open source
+components
+
+Tech
+-----
+   react+vite+js
+   tailwindcss
+   router-dom
+   formik,yup
+   framer-motion,gsap
