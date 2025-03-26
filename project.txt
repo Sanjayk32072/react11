@@ -1,7 +1,7 @@
 Documentation site
 github open source
 components
-
+-- npm package
 Tech
 -----
    react+vite+js
@@ -9,3 +9,30 @@ Tech
    router-dom
    formik,yup
    framer-motion,gsap
+
+How to upload a package to npm?
+To convert a project to npm  package
+  1. update the package.json
+  2. make a root export directory
+  3. make transpile the code using rolljs,babel
+  4. login to npm and publish
+
+IDEAs:
+  create a portfolio
+  create a simple blog where users read and subscribe newsletter and admin post
+  create tic tac toe, quiz game, memory game,chess game, guessing game,
+  create AI chatbot,image generators(dall-e),prompt generator, pernsonalized characters
+  open source templates,collections
+
+
+Resources:
+-----------
+roadmap.sh
+git web development Resources
+https://free-for.dev/#/
+
+
+
+
+
+
